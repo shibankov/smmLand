@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SMM Land</title>
+    <link href="/assets/css/vendors.c3e5ff2614b1e204d6ae.css" rel="stylesheet">
+    <link href="/assets/css/app.d3efb35b1632621a7969.css" rel="stylesheet">
+  </head>
+  <body>
+  <!-- Project begin -->
+    <div id="app">
+      <!-- Header begin -->
+      <header class="header">
+        <div class="container">
+          <div class="header__row">
+            <a href="index.html" class="header__logo logo">
+              <img src="assets/img/flop.svg" alt="img">
+            </a>
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "services__title">
+                    Услуги
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "advantage__title">
+                    Преимущества
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "work__title">
+                    О работе
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "contact-map__body">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <a href="index.html" class="header__burger burger">
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+            </a>
+          </div>
+        </div>
+        <div class="header-mob">
+          <div class="header-mob__row">
+            <nav class="header-mob__menu menu">
+              <ul class="menu__list">
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "services__title">
+                    Услуги
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "advantage__title">
+                    Преимущества
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "work__title">
+                    О работе
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html" class="menu__link" data-link = "contact-map__body">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-mob__social social">
+              <div class="social__row">
+                <div class="social__col">
+                  <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0C4.05 0 0 4.041 0 9.018C0 13.518 3.294 17.253 7.596 17.928V11.628H5.31V9.018H7.596V7.029C7.596 4.77 8.937 3.528 10.998 3.528C11.979 3.528 13.005 3.699 13.005 3.699V5.922H11.871C10.755 5.922 10.404 6.615 10.404 7.326V9.018H12.906L12.501 11.628H10.404V17.928C12.5248 17.5931 14.456 16.511 15.8489 14.8771C17.2419 13.2431 18.0048 11.1651 18 9.018C18 4.041 13.95 0 9 0Z" fill="#AFB6CF"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="social__col">
+                  <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.78 0H5.22C3.83557 0 2.50784 0.549963 1.5289 1.5289C0.549963 2.50784 0 3.83557 0 5.22V12.78C0 15.66 2.34 18 5.22 18H12.78C14.1644 18 15.4922 17.45 16.4711 16.4711C17.45 15.4922 18 14.1644 18 12.78V5.22C18 2.34 15.66 0 12.78 0ZM12.6052 4.16743C12.6018 4.12866 12.6001 4.08943 12.6001 4.0498C12.6001 3.30422 13.2045 2.6998 13.9501 2.6998C14.6957 2.6998 15.3001 3.30422 15.3001 4.0498C15.3001 4.79539 14.6957 5.39981 13.9501 5.39981C13.9107 5.39981 13.8716 5.39811 13.8331 5.3948C13.181 5.33881 12.6614 4.81936 12.6052 4.16743ZM12.6001 8.99981C12.6001 10.988 10.9883 12.5998 9.0001 12.5998C7.01187 12.5998 5.4001 10.988 5.4001 8.99981C5.4001 7.01158 7.01187 5.39981 9.0001 5.39981C10.9883 5.39981 12.6001 7.01158 12.6001 8.99981Z" fill="#AFB6CF"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="social__col">
+                  <a href="https://www.youtube.com/" target="_blank" class="social__link">
+                    <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.25714 12.4713L15.2627 8.9999L9.25714 5.52847V12.4713ZM22.6337 3.4109C22.7841 3.95476 22.8883 4.68376 22.9577 5.60947C23.0387 6.53519 23.0734 7.33362 23.0734 8.0279L23.1429 8.9999C23.1429 11.534 22.9577 13.397 22.6337 14.5889C22.3444 15.6303 21.6733 16.3015 20.6319 16.5908C20.088 16.7412 19.0929 16.8453 17.5654 16.9148C16.0611 16.9958 14.6841 17.0305 13.4113 17.0305L11.5714 17.0999C6.723 17.0999 3.70286 16.9148 2.511 16.5908C1.46957 16.3015 0.798429 15.6303 0.509143 14.5889C0.358714 14.045 0.254572 13.316 0.185143 12.3903C0.104143 11.4646 0.0694285 10.6662 0.0694285 9.9719L0 8.9999C0 6.46576 0.185143 4.60276 0.509143 3.4109C0.798429 2.36947 1.46957 1.69833 2.511 1.40905C3.05486 1.25862 4.05 1.15447 5.57743 1.08505C7.08171 1.00405 8.45871 0.969331 9.73157 0.969331L11.5714 0.899902C16.4199 0.899902 19.44 1.08505 20.6319 1.40905C21.6733 1.69833 22.3444 2.36947 22.6337 3.4109Z" fill="#AFB6CF"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="#applicationPopup" class="header-mob__btn btn popup-link">
+              Оставить заявку
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- Header end -->
+      <!-- Main section begin -->
+      <div class="content">
+        <a href="index.html" class="btn-scroll-top">
+          <svg width="49" height="29" viewBox="0 0 49 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 27L24.5 4L47 27" stroke="white" stroke-width="5"/>
+          </svg>
+        </a>
+        <section class="marketing">
+          <div class="container">
+            <div class="marketing__row">
+              <div class="marketing__col">
+                <h1 class="marketing__title">
+                  Продакшн Digital Studio
+                </h1>
+                <p class="marketing__desc">
+                  Изготовление медиаконтента любого формата:<br> креативный копирайтинг, организация фото и<br> видеосъемки, постпродакшн.
+                </p>
+                <a href="#applicationPopup" class="marketing__btn btn popup-link">
+                  Оставить заявку
+                </a>
+                <div class="marketing__social social">
+                  <div class="social__row">
+                    <div class="social__col">
+                      <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9 0C4.05 0 0 4.041 0 9.018C0 13.518 3.294 17.253 7.596 17.928V11.628H5.31V9.018H7.596V7.029C7.596 4.77 8.937 3.528 10.998 3.528C11.979 3.528 13.005 3.699 13.005 3.699V5.922H11.871C10.755 5.922 10.404 6.615 10.404 7.326V9.018H12.906L12.501 11.628H10.404V17.928C12.5248 17.5931 14.456 16.511 15.8489 14.8771C17.2419 13.2431 18.0048 11.1651 18 9.018C18 4.041 13.95 0 9 0Z" fill="#AFB6CF"/>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="social__col">
+                      <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.78 0H5.22C3.83557 0 2.50784 0.549963 1.5289 1.5289C0.549963 2.50784 0 3.83557 0 5.22V12.78C0 15.66 2.34 18 5.22 18H12.78C14.1644 18 15.4922 17.45 16.4711 16.4711C17.45 15.4922 18 14.1644 18 12.78V5.22C18 2.34 15.66 0 12.78 0ZM12.6052 4.16743C12.6018 4.12866 12.6001 4.08943 12.6001 4.0498C12.6001 3.30422 13.2045 2.6998 13.9501 2.6998C14.6957 2.6998 15.3001 3.30422 15.3001 4.0498C15.3001 4.79539 14.6957 5.39981 13.9501 5.39981C13.9107 5.39981 13.8716 5.39811 13.8331 5.3948C13.181 5.33881 12.6614 4.81936 12.6052 4.16743ZM12.6001 8.99981C12.6001 10.988 10.9883 12.5998 9.0001 12.5998C7.01187 12.5998 5.4001 10.988 5.4001 8.99981C5.4001 7.01158 7.01187 5.39981 9.0001 5.39981C10.9883 5.39981 12.6001 7.01158 12.6001 8.99981Z" fill="#AFB6CF"/>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="social__col">
+                      <a href="https://www.youtube.com/" target="_blank" class="social__link">
+                        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M9.25714 12.4713L15.2627 8.9999L9.25714 5.52847V12.4713ZM22.6337 3.4109C22.7841 3.95476 22.8883 4.68376 22.9577 5.60947C23.0387 6.53519 23.0734 7.33362 23.0734 8.0279L23.1429 8.9999C23.1429 11.534 22.9577 13.397 22.6337 14.5889C22.3444 15.6303 21.6733 16.3015 20.6319 16.5908C20.088 16.7412 19.0929 16.8453 17.5654 16.9148C16.0611 16.9958 14.6841 17.0305 13.4113 17.0305L11.5714 17.0999C6.723 17.0999 3.70286 16.9148 2.511 16.5908C1.46957 16.3015 0.798429 15.6303 0.509143 14.5889C0.358714 14.045 0.254572 13.316 0.185143 12.3903C0.104143 11.4646 0.0694285 10.6662 0.0694285 9.9719L0 8.9999C0 6.46576 0.185143 4.60276 0.509143 3.4109C0.798429 2.36947 1.46957 1.69833 2.511 1.40905C3.05486 1.25862 4.05 1.15447 5.57743 1.08505C7.08171 1.00405 8.45871 0.969331 9.73157 0.969331L11.5714 0.899902C16.4199 0.899902 19.44 1.08505 20.6319 1.40905C21.6733 1.69833 22.3444 2.36947 22.6337 3.4109Z" fill="#AFB6CF"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="marketing__img">
+            <img src="assets/img/marketing-img.svg" alt="img">
+          </div>
+        </section>
+        <section  class="about">
+          <div class="container">
+            <div class="about__row">
+              <h2 id="section1" class="about__title section-title">
+                Международная команда интернет-маркетологов из Берлина.
+              </h2>
+              <div class="about__body">
+                <div class="about__col about__col_img">
+                  <img src="assets/img/about-img.svg" alt="img">
+                </div>
+                <div class="about__col about__col_desc">
+                  <p>
+                    Главная цель – уникальные маркетинговые решения, которые принесут прибыль вашему бизнесу.
+                  </p>
+                  <p>
+                    Мы гарантируем:
+                    Полное погружение в проект
+                    Своевременное выполнение обязательств
+                    Высокое качество работы
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about__decor-title decor-section-title">
+            Marketing
+          </div>
+        </section>
+        <section class="services">
+          <div class="container">
+            <div class="services__row">
+              <h2 class="services__title section-title">
+                Услуги студии
+              </h2>
+              <div class="services__body">
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-1.svg" alt="ico">
+                      </div>
+                      <h3>
+                        PPC Google ADS
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Разработка кампаний, настройка аналитики, регулярная оптимизация процессов
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-2.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Ведение социальных сетей
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      SMM, копирайтинг, таргетированная реклама, наполнение социальных сетей, аналитика, разработка стратегии
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-3.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Брендинг
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Концепция бренда, уникальное торговое предложение, позиционирование, разработка брендбука
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-4.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Настройка CRM-систем
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Подключение сайта и социальных сетей к CRM-системе, подключение IP телефонии и мессенджеров. Контроль менеджеров по продажам. Работа с клиентами. Записи звонков и переписок. Чат-боты. Рассылки
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-5.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Настройка SEO
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Комплексная работа с сайтом для привлечения продаж и лидов из поисковых систем
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-6.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Web Design, UX / UI
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Разрабатываем Landing Page, интернет-магазины, сайты-визитки, многостраничные сайты, сайты на TILDA
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-7.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Бизнес-процессы
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Поможем сделать процесс продаж удобным и быстрым. Разработаем систему, которая учитывает специфику вашей компании.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-8.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Техническое сопровождение
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Настроим CRM, телефонию, поможем создать или найти клиентские базы.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__col">
+                  <div class="services__item">
+                    <div class="services__col-title">
+                      <div class="services__col-icon">
+                        <img src="assets/img/services-ico-9.svg" alt="ico">
+                      </div>
+                      <h3>
+                        Анализ продаж
+                      </h3>
+                    </div>
+                    <p class="services__col-desc">
+                      Анализируем записи разговоров по чек-листу, даём рекомендации. Оцениваем ЦА, потенциальных покупателей.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="connect">
+          <div class="container">
+            <div class="connect__row">
+              <div class="connect__body">
+                <h2 class="connect__title section-title">
+                  Cвяжитесь с нами!
+                </h2>
+              </div>
+              <a href="#applicationPopup" class="connect__btn btn popup-link">
+                Оставить заявку
+              </a>
+              <div class="connect__img">
+                <img src="assets/img/connect-img-1.svg" alt="img">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="advantage">
+          <div class="container">
+            <div class="advantage__row">
+              <h2 class="advantage__title section-title">
+                Наши преимущества
+              </h2>
+              <div class="advantage__body">
+                <div class="tabs">
+                  <nav class="tabs__nav">
+                    <ul class="tabs__list">
+                      <li>
+                        <div  class="tabs__link active" data-tab = "tab-1">01</div>
+                      </li>
+                      <li>
+                        <div  class="tabs__link" data-tab = "tab-2">02</div>
+                      </li>
+                      <li>
+                        <div class="tabs__link" data-tab = "tab-3">03</div>
+                      </li>
+                      <li>
+                        <div class="tabs__link" data-tab = "tab-4">04</div>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="tabs__content">
+                    <div class="tabs__item tab-1 active">
+                      <h4 class="tabs__item-title">
+                        Индивидуальный подход
+                      </h4>
+                      <p class="tabs__item-desc">
+                        Рассмотрим концепции и идеи, которые выгодно отражает философию вашей компании, бизнеса или продукта.
+                      </p>
+                    </div>
+                    <div class="tabs__item tab-2">
+                      <h4 class="tabs__item-title">
+                        Соблюдаем актуальные тенденции в области производства контента.
+                      </h4>
+                      <p class="tabs__item-desc">
+                        Мы следим за современными трендами, а также понимаем универсальные методы визуального языка.
+                      </p>
+                    </div>
+                    <div class="tabs__item tab-3">
+                      <h4 class="tabs__item-title">
+                        Команда профессионалов
+                      </h4>
+                      <p class="tabs__item-desc">
+                        Мы подбираем экспертных контент-мейкеров, которым мы можем доверить создание фото и видеоматериалов для вашего проекта.
+                      </p>
+                    </div>
+                    <div class="tabs__item tab-4">
+                      <h4 class="tabs__item-title">
+                        Договоренности для нас превыше всего.
+                      </h4>
+                      <p class="tabs__item-desc">
+                        Согласовываем каждый этап работы с вами, не срываем сроки, заключаем договор и четко следуем каждому пункту.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="work">
+          <div class="container">
+            <div class="work__row">
+              <h2 class="work__title section-title">
+                Как мы работаем
+              </h2>
+              <div class="work__body">
+                <div class="work__body-row">
+                  <div class="work__col">
+                    <div class="work__col-num">
+                      01
+                    </div>
+                    <div class="work__col-text">
+                      Получаем заказ и погружаемся в проект заказчика
+                    </div>
+                    <div class="work__col-decor work__col-decor_1"></div>
+                  </div>
+                </div>
+                <div class="work__body-row">
+                  <div class="work__col">
+                    <div class="work__col-num">
+                      04
+                    </div>
+                    <div class="work__col-text">
+                      Подбираем команду профессионалов, которые подходят под запрос клиента
+                    </div>
+                    <div class="work__col-decor work__col-decor_4"></div>
+                  </div>
+                  <div class="work__col">
+                    <div class="work__col-num">
+                      03
+                    </div>
+                    <div class="work__col-text">
+                      Формулируем ТЗ и согласовываем каждый этап работы
+                    </div>
+                    <div class="work__col-decor work__col-decor_3"></div>
+                  </div>
+                  <div class="work__col">
+                    <div class="work__col-num">
+                      02
+                    </div>
+                    <div class="work__col-text">
+                      Анализируем ЦА и рынок для понимания специфики проекта
+                    </div>
+                    <div class="work__col-decor work__col-decor_2"></div>
+                  </div>
+                </div>
+                <div class="work__body-row">
+                  <div class="work__col">
+                    <div class="work__col-num">
+                      05
+                    </div>
+                    <div class="work__col-text">
+                      Осуществляем расчет стоимости проекта и сроков выполнения работы
+                    </div>
+                    <div class="work__col-decor work__col-decor_5"></div>
+                  </div>
+                  <div class="work__col">
+                    <div class="work__col-num">
+                      06
+                    </div>
+                    <div class="work__col-text">
+                      Заключаем договор
+                    </div>
+                    <div class="work__col-decor work__col-decor_6"></div>
+                  </div>
+                  <div class="work__col">
+                    <div class="work__col-num">
+                      07
+                    </div>
+                    <div class="work__col-text">
+                      Готовим проект к запуску, тестируем и выявляем недочеты
+                    </div>
+                    <div class="work__col-decor work__col-decor_7"></div>
+                  </div>
+                </div>
+                <div class="work__body-row">
+                  <div class="work__col work__col_8">
+                    <div class="work__col-num">
+                      08
+                    </div>
+                    <div class="work__col-text">
+                      Реализуем заказ с дальнейшей (по&nbsp;договоренности) поддержкой
+                    </div>
+                    <div class="work__col-decor work__col-decor_8"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__decor-title decor-section-title">
+            progress
+          </div>
+        </section>
+        <section class="audit">
+          <div class="container">
+            <div class="audit__row">
+              <div class="audit__col audit__img">
+                <img src="assets/img/audit-img.svg" loading = "lazy"  alt="img">
+              </div>
+              <div class="audit__col audit__form">
+                <h2 class="audit__form-title section-title">
+                  Закажите бесплатный аудит вашей рекламы или сайта
+                </h2>
+                <form action="" method="" class="audit__form-body">
+                  <input type="text" class="base-input" placeholder="Адрес сайта" name="adress" data-valid = "adress">
+                  <input type="text" class="base-input" placeholder="Ваше имя" name="name" data-valid = "name">
+                  <input type="text" class="base-input" placeholder="Телефон" name="phone" data-valid = "phone">
+                  <input type="text" class="base-input" placeholder="E-mail" name="mail" data-valid = "mail">
+                  <button class="audit__form-btn btn">
+                    Отправить
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact-map">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9290635.710903382!2d40.297852!3d55.35413500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1629202736962!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+          <div class="contact-map__body">
+            <h3 class="contact-map__body-title">
+              Контакты
+            </h3>
+            <div class="contact-map__body-row">
+              <h4>
+                Офис в Дрездене
+              </h4>
+            </div>
+            <div class="contact-map__body-row">
+              <p>
+                +49 351 482 45 050
+              </p>
+              <p>
+                +49 351 482 45 050
+              </p>
+            </div>
+            <div class="contact-map__body-row">
+              <p>
+                info@mitstudio.de
+              </p>
+            </div>
+            <div class="contact-map__body-row">
+              <p>
+                Lingnerallee 3,<br>
+                01069 Dresden,<br>
+                Deutschland
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="container">
+            <h2 class="contact__title section-title">
+              Связаться c нами
+            </h2>
+            <div class="contact__row">
+              <div class="contact__col contact__img">
+                <img src="assets/img/contact-img.svg" loading = "lazy"  alt="img">
+              </div>
+              <div class="contact__col contact__body">
+                <form action="" method="" class="contact__form-body">
+                  <input type="text" class="base-input" placeholder="Адрес сайта" name="adress" data-valid = "adress">
+                  <input type="text" class="base-input" placeholder="Ваше имя" name="name" data-valid = "name">
+                  <input type="text" class="base-input" placeholder="Телефон" name="phone" data-valid = "phone">
+                  <input type="text" class="base-input" placeholder="E-mail" name="mail" data-valid = "mail">
+                  <button class="contact__form-btn btn">
+                    Отправить
+                  </button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+          <div class="contact__decor-img">
+            <img src="assets/img/contact-decor-img.svg" loading = "lazy"  alt="img">
+          </div>
+        </section>
+        <!-- Modal window -->
+        <div  id="applicationPopup" class="popup">
+          <div class="popup__body">
+            <a href="index.html" class="popup__close-icon close-popup">
+              <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.70711 0.810956C1.31659 0.420436 0.683417 0.420436 0.292897 0.810956C-0.0976325 1.20148 -0.0976325 1.83465 0.292897 2.22517L6.06765 7.9999L0.292958 13.7746C-0.0975724 14.1651 -0.0975724 14.7983 0.292958 15.1888C0.683478 15.5793 1.31665 15.5793 1.70717 15.1888L7.48185 9.4141L13.2565 15.1888C13.647 15.5793 14.2802 15.5793 14.6707 15.1888C15.0612 14.7983 15.0612 14.1651 14.6707 13.7746L8.89605 7.9999L14.6707 2.22517C15.0613 1.83465 15.0613 1.20148 14.6707 0.810956C14.2802 0.420436 13.6471 0.420436 13.2565 0.810956L7.48185 6.5857L1.70711 0.810956Z" fill="#1C1C1C"/>
+              </svg>
+            </a>
+            <div class="popup__content">
+              <div class="application__wrapper">
+                <form action="" method="" class="application__form-body">
+                  <input type="text" class="base-input" placeholder="Адрес сайта" name="adress" data-valid = "adress">
+                  <input type="text" class="base-input" placeholder="Ваше имя" name="name" data-valid = "name">
+                  <input type="text" class="base-input" placeholder="Телефон" name="phone" data-valid = "phone">
+                  <input type="text" class="base-input" placeholder="E-mail" name="mail" data-valid = "mail">
+                  <button class="application__form-btn btn">
+                    Отправить
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal window end -->
+      </div>
+      <!-- Main section end -->
+      <!-- Footer begin -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__col">
+              <a href="index.html" class="footer__logo logo">
+                <img src="assets/img/flop2.svg" alt="img">
+              </a>
+            </div>
+            <div class="footer__col">
+              <div class="footer__social social">
+                <div class="social__row">
+                  <div class="social__col">
+                    <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0C4.05 0 0 4.041 0 9.018C0 13.518 3.294 17.253 7.596 17.928V11.628H5.31V9.018H7.596V7.029C7.596 4.77 8.937 3.528 10.998 3.528C11.979 3.528 13.005 3.699 13.005 3.699V5.922H11.871C10.755 5.922 10.404 6.615 10.404 7.326V9.018H12.906L12.501 11.628H10.404V17.928C12.5248 17.5931 14.456 16.511 15.8489 14.8771C17.2419 13.2431 18.0048 11.1651 18 9.018C18 4.041 13.95 0 9 0Z" fill="#AFB6CF"/>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="social__col">
+                    <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.78 0H5.22C3.83557 0 2.50784 0.549963 1.5289 1.5289C0.549963 2.50784 0 3.83557 0 5.22V12.78C0 15.66 2.34 18 5.22 18H12.78C14.1644 18 15.4922 17.45 16.4711 16.4711C17.45 15.4922 18 14.1644 18 12.78V5.22C18 2.34 15.66 0 12.78 0ZM12.6052 4.16743C12.6018 4.12866 12.6001 4.08943 12.6001 4.0498C12.6001 3.30422 13.2045 2.6998 13.9501 2.6998C14.6957 2.6998 15.3001 3.30422 15.3001 4.0498C15.3001 4.79539 14.6957 5.39981 13.9501 5.39981C13.9107 5.39981 13.8716 5.39811 13.8331 5.3948C13.181 5.33881 12.6614 4.81936 12.6052 4.16743ZM12.6001 8.99981C12.6001 10.988 10.9883 12.5998 9.0001 12.5998C7.01187 12.5998 5.4001 10.988 5.4001 8.99981C5.4001 7.01158 7.01187 5.39981 9.0001 5.39981C10.9883 5.39981 12.6001 7.01158 12.6001 8.99981Z" fill="#AFB6CF"/>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="social__col">
+                    <a href="https://www.youtube.com/" target="_blank" class="social__link">
+                      <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.25714 12.4713L15.2627 8.9999L9.25714 5.52847V12.4713ZM22.6337 3.4109C22.7841 3.95476 22.8883 4.68376 22.9577 5.60947C23.0387 6.53519 23.0734 7.33362 23.0734 8.0279L23.1429 8.9999C23.1429 11.534 22.9577 13.397 22.6337 14.5889C22.3444 15.6303 21.6733 16.3015 20.6319 16.5908C20.088 16.7412 19.0929 16.8453 17.5654 16.9148C16.0611 16.9958 14.6841 17.0305 13.4113 17.0305L11.5714 17.0999C6.723 17.0999 3.70286 16.9148 2.511 16.5908C1.46957 16.3015 0.798429 15.6303 0.509143 14.5889C0.358714 14.045 0.254572 13.316 0.185143 12.3903C0.104143 11.4646 0.0694285 10.6662 0.0694285 9.9719L0 8.9999C0 6.46576 0.185143 4.60276 0.509143 3.4109C0.798429 2.36947 1.46957 1.69833 2.511 1.40905C3.05486 1.25862 4.05 1.15447 5.57743 1.08505C7.08171 1.00405 8.45871 0.969331 9.73157 0.969331L11.5714 0.899902C16.4199 0.899902 19.44 1.08505 20.6319 1.40905C21.6733 1.69833 22.3444 2.36947 22.6337 3.4109Z" fill="#AFB6CF"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__col">
+              <nav class="footer__menu menu">
+                <ul class="menu__list">
+                  <li>
+                    <a href="index.html" class="menu__link" data-link = "services__title">
+                      Услуги
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html" class="menu__link" data-link = "work__title">
+                      О работе
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index.html" class="menu__link" data-link = "contact-map__body">
+                      Контакты
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end -->
+    </div>
+  <!-- End begin -->
+  <noscript>
+    <p>Ваш браузер не поддерживает скрипты!</p>
+  </noscript>
+  <script src="/assets/js/app.69822af4ffbaee7cd683.js"></script>
+  <script src="/assets/js/vendors.2cd011a489907d2362ce.js"></script>
+  </body>
+</html>
